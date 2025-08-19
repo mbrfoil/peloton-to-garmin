@@ -49,7 +49,7 @@ jobs:
             "IncludeTimeInHRZones": false,
             "IncludeTimeInPowerZones": false,
             "StackedWorkouts": {
-              "AutomaticallyStackWorkouts": false,
+              "AutomaticallyStackWorkouts": true,
               "MaxAllowedGapSeconds": 300
             }
           },
@@ -93,3 +93,4 @@ jobs:
         name: output
         path: ${{ env.OUTPUT_DIR }}
         if-no-files-found: error
+
